@@ -1,0 +1,42 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo_title {
+  color: #173d33;
+  font-family: "AllRoundGothicThick";
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.32px;
+}
+
+.logo_title:hover {
+  color: #97d28b;
+}
+
+.logo_subtitle {
+  align-self: baseline;
+  padding: 13px 0 9px;
+  margin-left: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60px;
+}
+
+.logo_span {
+  color: #173d33;
+  font-family: "CA Saygon Text";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 9px; /* 90% */
+  letter-spacing: -0.4px;
+}
+
+.logo_span:first-child {
+  color: #97d28b;
+}

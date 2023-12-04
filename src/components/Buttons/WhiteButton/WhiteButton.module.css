@@ -1,0 +1,31 @@
+.contactButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 4px 4px 4px 16px;
+  border: 1px solid #97d28b;
+  border-radius: 500px;
+
+  color: #173d33;
+  font-size: 16px;
+  font-family: "FiraSans_Regular";
+}
+
+.contactButton:hover,
+.contactButton:focus {
+  background-color: #173d33;
+  border: none;
+  color: #97d28b;
+}
+
+.contactElement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  background-color: #97d28b;
+}

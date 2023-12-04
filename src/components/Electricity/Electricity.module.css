@@ -1,0 +1,97 @@
+.electricity_section {
+  padding: 36px 0 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 100px 0 0;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 120px 0 0;
+  }
+}
+
+.electricity_title {
+  font-family: "Oswald_Regular";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  color: #173d33;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+    width: 368px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 48px;
+    width: 492px;
+  }
+}
+
+.electricity_counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 96px;
+
+  &::before {
+    content: "";
+    width: 1px;
+    height: 48px;
+    background-color: #97d28b;
+    position: absolute;
+    left: 50%;
+    top: 24px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 135px;
+
+    &::before {
+      height: 87px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 120px;
+
+    &::before {
+      top: 16px;
+    }
+  }
+}
+
+.electricity_time {
+  font-family: "Oswald_Bold";
+  font-size: 48px;
+  line-height: 1;
+  width: 71%;
+  font-weight: 700;
+  color: #97d28b;
+
+  @media screen and (min-width: 768px) {
+    font-size: 100px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 164px;
+  }
+}
+
+.electricity_measure {
+  color: #173d33;
+  font-size: 24px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    margin-left: 24px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 48px;
+  }
+}

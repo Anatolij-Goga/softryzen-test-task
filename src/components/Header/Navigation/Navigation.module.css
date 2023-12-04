@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+}
+
+.nav_link {
+  font-size: 24px;
+  color: white;
+
+  @media screen and (min-width: 768px) {
+    color: #fff;
+    opacity: 0.75;
+  }
+}
+
+.nav_link:visited,
+.arrow_Icon:visited {
+  @media screen and (min-width: 768px) {
+    color: #97d28b;
+  }
+}
+
+.nav_item:hover > * {
+  cursor: pointer;
+  color: #97d28b;
+  fill: #97d28b;
+  @media screen and (min-width: 768px) {
+    opacity: 0.75;
+  }
+}
+
+.nav_item:hover .arrow_Icon {
+  fill: #97d28b;
+}
+
+.nav_link:active,
+.arrow_Icon:active {
+  color: #97d28b;
+}
+
+.nav_item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.arrow_Icon {
+  margin-left: 8px;
+}

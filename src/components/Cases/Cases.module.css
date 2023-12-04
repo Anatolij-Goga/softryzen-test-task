@@ -1,0 +1,135 @@
+.cases_section {
+  padding: 36px 0 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 100px 0 0;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 120px 0 0;
+  }
+}
+
+.cases_controlsBlock {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: end;
+  justify-self: end;
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+}
+
+.cases_title {
+  font-family: "Oswald_Regular";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  color: #173d33;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  grid-area: 1 / 1 / 2 / 3;
+
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+    margin-bottom: 0;
+
+    /* max-width: 264px; */
+    align-self: center;
+    justify-self: start;
+    grid-area: 1 / 1 / 2 / 2;
+    border-right: 1px solid #97d28b;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 48px;
+    /* max-width: 400px; */
+  }
+}
+
+.cases_counter {
+  @media screen and (min-width: 768px) {
+    padding-left: 8px;
+  }
+  @media screen and (min-width: 1280px) {
+    justify-self: center;
+  }
+}
+
+.cases_count {
+  font-family: "FiraSans_Light";
+  font-size: 28px;
+  color: #173d33;
+  grid-area: 2 / 1 / 3 / 2;
+
+  @media screen and (min-width: 768px) {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+}
+
+.cases_count:last-child {
+  opacity: 0.25;
+}
+
+.cases_controls {
+  display: flex;
+  grid-area: 2 / 2 / 3 / 3;
+  justify-content: flex-end;
+
+  @media screen and (min-width: 768px) {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+}
+
+.cases_button {
+  width: 66px;
+  height: 66px;
+  border-radius: 100%;
+  border: 1px solid #173d33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: 1280px) {
+    width: 84px;
+    height: 84px;
+  }
+}
+.cases_button:last-child {
+  margin-left: 12px;
+
+  @media screen and (min-width: 1280px) {
+    margin-left: 24px;
+  }
+}
+
+.cases_button:hover {
+  border-color: #97d28b;
+}
+
+.cases_button:hover > * {
+  fill: #97d28b;
+}
+
+.cases_gallery {
+  display: block;
+  padding-top: 20px;
+  @media screen and (min-width: 768px) {
+    padding-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 120px;
+  }
+}

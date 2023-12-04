@@ -1,0 +1,228 @@
+.contacts_section {
+  padding: 36px 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 100px 0;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 120px 0;
+  }
+}
+
+.contacts_sectionBox {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.contacts_infoBlock {
+  font-style: normal;
+  flex: 1;
+
+  @media screen and (min-width: 768px) {
+    max-width: 244px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 466px;
+  }
+}
+
+.contacts_formBox {
+  flex: 1;
+}
+
+.contacts_title {
+  font-family: "Oswald_Regular";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  color: #173d33;
+  text-transform: uppercase;
+  margin: 0 auto 24px;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+    margin: 0 auto 40px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin: 0 auto 120px;
+    font-size: 48px;
+    width: 398px;
+  }
+}
+
+.contacts_subtitle {
+  font-size: 16px;
+  font-family: "FiraSans_Regular";
+  color: #173d33;
+  margin-bottom: 8px;
+  letter-spacing: -0.04em;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 16px;
+  }
+}
+
+.contacts_subtitle:not(:first-child) {
+  margin-top: 24px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 32px;
+  }
+}
+
+.contacts_infoItem {
+  display: flex;
+  align-items: center;
+}
+
+.contacts_infoText {
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  margin-left: 8px;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 24px;
+  }
+}
+
+.contacts_socials {
+  padding: 12px;
+
+  @media screen and (min-width: 1280px) {
+    padding: 16px 0 0;
+  }
+}
+
+.insta_Icon {
+  margin-left: 20px;
+
+  @media screen and (min-width: 1280px) {
+    margin-left: 8px;
+  }
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  background-color: #eaedf1;
+  padding: 36px 12px;
+
+  @media screen and (min-width: 768px) {
+    padding: 36px 24px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 48px;
+  }
+}
+
+.ContactForm_input {
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  border-bottom: 1px solid #97d28b;
+  padding: 8px 0;
+  background-color: transparent;
+  letter-spacing: -0.04em;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 20px;
+    padding: 16px 0;
+  }
+}
+
+.ContactForm_input::placeholder {
+  color: #828382;
+}
+
+.ContactForm_label {
+  font-size: 16px;
+  font-family: "FiraSans_Regular";
+  color: #173d33;
+  letter-spacing: -0.04em;
+}
+
+.ContactForm_label:not(:first-child) {
+  margin-top: 28px;
+}
+
+.ContactForm_input:last-child {
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 32px;
+  }
+}
+
+.ContactForm_btn {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 4px 4px 4px 16px;
+  border: 1px solid #97d28b;
+  border-radius: 500px;
+
+  color: #173d33;
+  font-size: 16px;
+  font-family: "FiraSans_Regular";
+}
+
+.ContactForm_btn:hover {
+  background-color: #173d33;
+  border: none;
+  color: #97d28b;
+}
+
+.contactElement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  background-color: #97d28b;
+}
+
+.ContactForm_error {
+  color: #d28b8b;
+  text-align: right;
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  padding-top: 8px;
+}
+
+.contacts_icon {
+  fill: #173d33;
+  width: 24px;
+  height: 24px;
+}
+
+.contacts_icon:last-child {
+  margin-left: 8px;
+}
+
+.social_icon:hover {
+  cursor: pointer;
+  fill: #97d28b;
+}
+
+.social_icon:last-child {
+  margin-left: 8px;
+}

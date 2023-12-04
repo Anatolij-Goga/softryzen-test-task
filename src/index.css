@@ -1,15 +1,114 @@
-@import-normalize; /* bring in normalize.css styles */
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+
+/* fonts */
+@font-face {
+  font-family: 'Oswald_Regular';
+  src: local('Oswald_Regular'),
+    url('./assets/fonts/Oswald/Oswald-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Oswald_Bold';
+  src: local('Oswald_Bold'),
+    url('./assets/fonts/Oswald/Oswald-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FiraSans_Light';
+  src: local('FiraSans_Light'),
+    url('./assets/fonts/FiraSans/FiraSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FiraSans_Regular';
+  src: local('FiraSans_Regular'),
+    url('./assets/fonts/FiraSans/FiraSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AllRoundGothicThick';
+  src: url('./assets/fonts/AllRoundGothicThick/Fontspring-DEMO-allroundgothic-thick.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'CA Saygon Text';
+  src: url('./assets/fonts/CASaygonText/CASaygonText-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+/*  */
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'FiraSans_Regular';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  background: #fafafa;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: 'FiraSans_Regular';
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+.overflowhidden {
+  overflow: hidden;
+  /* opacity: 0.75;
+  filter: blur(1px); */
 }

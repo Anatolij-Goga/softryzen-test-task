@@ -1,0 +1,47 @@
+.contactButton {
+  display: flex;
+  font-size: 16px;
+  font-family: "FiraSans_Regular";
+  padding: 10px 12px 10px 16px;
+  background-color: #97d28b;
+  color: #173d33;
+  border: none;
+  border-radius: 500px;
+  margin-left: 12px;
+}
+
+.contactButton:hover {
+  background-color: #173d33;
+  color: #97d28b;
+  &::after {
+    content: "\2193";
+    color: #173d33;
+    font-size: 12px;
+    background-color: #97d28b;
+  }
+}
+
+.contactButton:hover .contactLink {
+  color: #97d28b;
+}
+
+.contactButton::after {
+  content: "";
+  display: inline-block;
+  align-self: center;
+  margin: auto 0 auto 12px;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  background-color: #173d33;
+}
+
+.contactLink {
+  color: #173d33;
+  display: flex;
+  align-items: center;
+}
+
+.contactLink:hover {
+  color: #97d28b;
+}
