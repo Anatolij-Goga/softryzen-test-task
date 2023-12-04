@@ -1,13 +1,39 @@
 {
   "files": {
-    "main.css": "/softryzen-test-task/static/css/main.7acaea2f.css",
-    "main.js": "/softryzen-test-task/static/js/main.e64006c2.js",
+    "main.css": "/softryzen-test-task/static/css/main.22fe3b26.css",
+    "main.js": "/softryzen-test-task/static/js/main.92fecd2b.js",
+    "static/js/787.00f241e2.chunk.js": "/softryzen-test-task/static/js/787.00f241e2.chunk.js",
+    "static/media/heroweb2x.jpg": "/softryzen-test-task/static/media/heroweb2x.4ca98e4b55c4db3dfcd5.jpg",
+    "static/media/herotab2x.jpg": "/softryzen-test-task/static/media/herotab2x.45c87140c4f6d7213b1e.jpg",
+    "static/media/img1wx2.jpg": "/softryzen-test-task/static/media/img1wx2.04b50a4f224c29afe09f.jpg",
+    "static/media/img3wx2.jpg": "/softryzen-test-task/static/media/img3wx2.b294e3feb15a35bef7f2.jpg",
+    "static/media/img4wx2.jpg": "/softryzen-test-task/static/media/img4wx2.7c3ed600d9444337e915.jpg",
+    "static/media/img5wx2.jpg": "/softryzen-test-task/static/media/img5wx2.052f104edbc605fc6624.jpg",
+    "static/media/img2wx2.jpg": "/softryzen-test-task/static/media/img2wx2.4c1ba875d9b31f3b2cf2.jpg",
+    "static/media/val1web2x.jpg": "/softryzen-test-task/static/media/val1web2x.645683b2d8d48d3a7881.jpg",
+    "static/media/val2web2x.jpg": "/softryzen-test-task/static/media/val2web2x.3bb2cdd72be69029a6f3.jpg",
+    "static/media/FiraSans-Regular.ttf": "/softryzen-test-task/static/media/FiraSans-Regular.f4eb295ecc2fb842d61c.ttf",
+    "static/media/FiraSans-Light.ttf": "/softryzen-test-task/static/media/FiraSans-Light.7ece67e11e181a7292ef.ttf",
+    "static/media/img1mx2.jpg": "/softryzen-test-task/static/media/img1mx2.76eb67fd8ba599ad7a78.jpg",
+    "static/media/heromob2x.jpg": "/softryzen-test-task/static/media/heromob2x.ad4400c01435e3d46166.jpg",
+    "static/media/val1tab2x.jpg": "/softryzen-test-task/static/media/val1tab2x.a8d36a515f5dbe194c44.jpg",
+    "static/media/img3mx2.jpg": "/softryzen-test-task/static/media/img3mx2.913897c4446b35e7102e.jpg",
+    "static/media/val2tab2x.jpg": "/softryzen-test-task/static/media/val2tab2x.a798ef69d9ae92aa59ec.jpg",
+    "static/media/img5wx1.jpg": "/softryzen-test-task/static/media/img5wx1.ef2ab514e82f9a61c8b0.jpg",
+    "static/media/img4wx1.jpg": "/softryzen-test-task/static/media/img4wx1.4493d91718973a378b5f.jpg",
+    "static/media/img2wx1.jpg": "/softryzen-test-task/static/media/img2wx1.37b8f2b67eb7d272bfb2.jpg",
+    "static/media/Oswald-Bold.ttf": "/softryzen-test-task/static/media/Oswald-Bold.41669c1e4f6bdc605d26.ttf",
+    "static/media/Oswald-Regular.ttf": "/softryzen-test-task/static/media/Oswald-Regular.31bce04a1ae8549b1464.ttf",
+    "static/media/CASaygonText-Regular.woff2": "/softryzen-test-task/static/media/CASaygonText-Regular.a94735b1aeadddcbae56.woff2",
+    "static/media/sprite3.svg": "/softryzen-test-task/static/media/sprite3.16af26a93d9f1d400994fc0f0615836f.svg",
+    "static/media/Fontspring-DEMO-allroundgothic-thick.woff2": "/softryzen-test-task/static/media/Fontspring-DEMO-allroundgothic-thick.33382ed10e1fcaa92d5e.woff2",
     "index.html": "/softryzen-test-task/index.html",
-    "main.7acaea2f.css.map": "/softryzen-test-task/static/css/main.7acaea2f.css.map",
-    "main.e64006c2.js.map": "/softryzen-test-task/static/js/main.e64006c2.js.map"
+    "main.22fe3b26.css.map": "/softryzen-test-task/static/css/main.22fe3b26.css.map",
+    "main.92fecd2b.js.map": "/softryzen-test-task/static/js/main.92fecd2b.js.map",
+    "787.00f241e2.chunk.js.map": "/softryzen-test-task/static/js/787.00f241e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.e64006c2.js"
+    "static/css/main.22fe3b26.css",
+    "static/js/main.92fecd2b.js"
   ]
 }
